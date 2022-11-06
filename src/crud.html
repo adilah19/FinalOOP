@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>CRUD App</title>
+  <link rel="stylesheet" href="crud.css" />
+  <link rel="stylesheet" href="photon.min.css" />
+</head>
+<body>
+<div class="mainWrapper">
+<h1><strong>CRUD Page !</strong></h1>
+  <form>
+    <div class="form-group">
+      <label><strong>File name</strong></label>
+      <input id="fileName" type="text" class="form-control" placeholder="IdealHikingWeather.txt" style="border: 3px solid rgb(5, 4, 4);">
+    </div>
+    <div class="form-group">
+      <label><strong>Content</strong></label>
+      <textarea id="fileContents" class="form-control" rows="5" style="border: 3px solid rgb(5, 4, 4);"></textarea>
+    </div>
+  </form><br>
+
+  <!-- button CREATE READ DELETE UPDATE -->
+  <button id="btnCreate" class="btn btn-default" style="border: 2px solid rgb(5, 69, 142); color:blue;"><strong>Create</strong></button>
+  <button id="btnRead" class="btn btn-default" style="border: 2px solid rgb(5, 69, 142); color:blue;"><strong>Read</strong></button>
+  <button id="btnDelete" class="btn btn-default" style="border: 2px solid rgb(5, 69, 142); color:blue;"><strong>Delete</strong></button>
+  <button id="btnUpdate" class="btn btn-default" style="border: 2px solid rgb(5, 69, 142); color:blue;"><strong>Update</strong></button>
+</div>
+
+<script src="crud.js"></script>
+
+</body>
+</html>
